@@ -35,3 +35,13 @@ console.log(fullName.length);
 
 //string methods
 console.log(fullName.toUpperCase());
+
+//common string methods
+//let result = email.lastIndexOf('n');
+
+//let result = email.slice(2, 14);
+
+//let result = email.substring(4,10);
+
+let result =  email.replace('m', 'w');
+console.log(result);
