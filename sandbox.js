@@ -1,47 +1,72 @@
-// let age = 25;
-// let year = 2022;
+// // let age = 25;
+// // let year = 2022;
 
-// //log things to console
-// console.log(age, year);
+// // //log things to console
+// // console.log(age, year);
 
-// age = 30;
+// // age = 30;
 
-// console.log(age);
+// // console.log(age);
 
-// const point = 100;
-// console.log(point);
+// // const point = 100;
+// // console.log(point);
 
-// var score = 75;
-// console.log(score);
+// // var score = 75;
+// // console.log(score);
 
-//strings
-console.log('hello, world');
+// //strings
+// console.log('hello, world');
 
-let email = 'mario@thenetninja.co.uk';
-console.log(email);
+// let email = 'mario@thenetninja.co.uk';
+// console.log(email);
 
-//string concat
-let firstName = 'Brandon';
-let lastName = 'Sanderson';
+// //string concat
+// let firstName = 'Brandon';
+// let lastName = 'Sanderson';
 
-let fullName = firstName + ' ' + lastName;
-console.log(fullName);
+// let fullName = firstName + ' ' + lastName;
+// console.log(fullName);
 
-//getting characters
-console.log(fullName[0]);
+// //getting characters
+// console.log(fullName[0]);
 
-//string length
-console.log(fullName.length);
+// //string length
+// console.log(fullName.length);
 
-//string methods
-console.log(fullName.toUpperCase());
+// //string methods
+// console.log(fullName.toUpperCase());
 
-//common string methods
-//let result = email.lastIndexOf('n');
+// //common string methods
+// //let result = email.lastIndexOf('n');
 
-//let result = email.slice(2, 14);
+// //let result = email.slice(2, 14);
 
-//let result = email.substring(4,10);
+// //let result = email.substring(4,10);
 
-let result =  email.replace('m', 'w');
-console.log(result);
+// //let result =  email.replace('m', 'w');
+
+// console.log(result);
+
+let radius = 10;
+const PI = 3.14;
+
+console.log(radius,PI);
+
+//math operators +, -, *, /, **( to the power of), %
+
+console.log(10/2);
+console.log( radius % 3);
+
+console.log(PI * radius**2);
+
+//order of operations: B(brackets) I(indicies) D(divison) M(multiplication) A S
+
+let likes = 10;
+// likes = likes + 1;
+// likes += 1;
+// likes++
+// likes --
+
+likes %= 3;
+
+console.log(likes);
