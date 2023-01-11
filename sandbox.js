@@ -149,9 +149,30 @@
 
 // console.log('loop finished');
 
-const names = ['shaun', 'mario', 'luigi'];
+// const names = ['shaun', 'mario', 'luigi'];
 
-for(let i = 0; i < names.length; i++)
+// for(let i = 0; i < names.length; i++)
+// {
+//     console.log(names[i]);
+// }
+
+//function declaration
+// function greet()
+// {
+//     console.log('hello there');
+// }
+
+// //function expression
+// const speak = function()
+// {
+//     console.log('good day!');
+// };
+
+// speak();
+
+const speak = function(name)
 {
-    console.log(names[i]);
+    console.log(`good day ${name}`);
 }
+
+speak('mario');
