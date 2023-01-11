@@ -85,6 +85,48 @@
 
 // console.log(html);
 
-let ninjas = ['shaun', 'rye', 'chun-11'];
+// let ninjas = ['shaun', 'rye', 'chun-11'];
 
-console.log(ninjas);
+// let results = ninjas.push('ken');
+// result = ninjas.pop();
+// console.log(ninjas);
+// console.log(results);
+// console.log(results);
+
+// let age = null;
+
+// console.log(age, age+3, `The age is ${age}`);
+
+
+// console.log(true, false, "true", "false");
+
+// //methods can return boolean
+// let email = 'luigi@thenetninja.co.uk';
+// let names = ['mario', 'luigi', 'toad'];
+
+//let result = email.includes('@');
+// let result = names.includes('toad');
+
+// console.log(result);
+//let age = 25;
+
+// console.log(age == 25);
+// console.log(age == 30);
+// console.log(age > 20);
+// console.log(age === '25');
+
+// let names = 'shaun';
+
+// console.log(names == 'shaun');
+// console.log(names == 'Shaun');
+// console.log(names < 'cystal');
+// console.log(names > 'Shaun');
+
+let age = 25;
+
+console.log(age === 25);
+console.log(age === '25');
+console.log(age !== '25');
+console.log(age !== '25');
+
+
