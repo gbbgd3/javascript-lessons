@@ -170,9 +170,42 @@
 
 // speak();
 
-const speak = function(name)
-{
-    console.log(`good day ${name}`);
-}
+// const speak = function(name)
+// {
+//     console.log(`good day ${name}`);
+// };
 
-speak('mario');
+// const calcArea = function(radius)
+// {
+//     return 3.14 * radius**2;
+// };
+
+// console.log(calcArea(5));
+
+// const calcVol = function(area)
+// {
+
+// };
+
+// calcVol(area);
+
+//arrow function
+
+// const calcArea = (radius) => 3.14 * radius**2;
+
+// console.log('area is: ', calcArea(5));
+
+const greet = () => 'hello world';
+
+const bill = (production, tax) => 
+{
+    let total = 0;
+    for(let i =0; i < production.length; i++)
+    {
+        total += production[i] + production[i] * tax;
+    }
+
+    return total;
+};
+
+console.log(bill([10,15,30], 0.2));
