@@ -209,17 +209,47 @@
 // };
 
 // console.log(bill([10,15,30], 0.2));
+// {
+// const name = 'shaun';
+
+// //function
+//     const greet = () => 'hello';
+
+//     const resultOne = greet();
+//     console.log(resultOne)
+
+// //methods
+
+// let resultTwo = name.toUpperCase();
+// console.log(resultTwo);
+// }
+
+//callbacks and foreach
+
+// const myFunc = (callBackFunc) =>
+// {
+//     //do something
+//     let value = 50;
+//     callBackFunc(value);
+// };
+
+// myFunc(value =>
+// {
+//     //do something
+//     console.log(value);
+// });
+
+let people = ['mario', 'luigi', 'rye', 'shaun', 'chin-li'];
+
+const logPerson = (person, index) =>
 {
-const name = 'shaun';
+    console.log(`${index} - Hello ${person}`);
+};
 
-//function
-    const greet = () => 'hello';
+// people.forEach((index, person) => 
+// {
+//     console.log(index, person);
+// });
 
-    const resultOne = greet();
-    console.log(resultOne)
-
-//methods
-
-let resultTwo = name.toUpperCase();
-console.log(resultTwo);
-}
+console.log(people);
+people.forEach(logPerson);
