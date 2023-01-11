@@ -271,31 +271,66 @@
 
 // ul.innerHTML = html;
 
-let user = 
-{
-    name: 'crystal',
-    age: 30,
-    email: 'crystal@thenetninja.co.uk',
-    location: 'berlin',
-    blogs: 
-    [
-        {
-        title: 'Why mac & cheese rules',
-        likes: 30
-        },
-        {
-            title: '10 things to make with marmite',
-            likes: 30
-        }
-    ],
-    login: () => console.log('the user logged in'),
-    logout: () => console.log('User has logged out'),
-    logBlogs: function()
-    {
-        this.blogs.forEach(element => {
-            console.log(element.title, element.likes);
-        });
-    }
-};
+// let user = 
+// {
+//     name: 'crystal',
+//     age: 30,
+//     email: 'crystal@thenetninja.co.uk',
+//     location: 'berlin',
+//     blogs: 
+//     [
+//         {
+//         title: 'Why mac & cheese rules',
+//         likes: 30
+//         },
+//         {
+//             title: '10 things to make with marmite',
+//             likes: 30
+//         }
+//     ],
+//     login: () => console.log('the user logged in'),
+//     logout: () => console.log('User has logged out'),
+//     logBlogs: function()
+//     {
+//         this.blogs.forEach(element => {
+//             console.log(element.title, element.likes);
+//         });
+//     }
+// };
 
-user.logBlogs();
+// user.logBlogs();
+ 
+//const p = document.querySelector('div.error');
+
+// const ps = document.querySelectorAll('p');
+
+// ps.forEach(para =>
+//     {
+//         console.log(para);
+//     });
+
+// const errors = document.querySelectorAll('.error');
+// errors.forEach(errorMessage =>
+//     {
+//         console.log(errorMessage.textContent);
+//     });
+
+// const title = document.getElementById('page-title');
+
+// const errors = document.getElementsByClassName('error');
+
+// console.log(errors);
+// console.log(errors[0]);
+
+// const p = document.querySelector('p');
+
+// console.log(p.innerText);
+
+const p =  document.querySelectorAll('p');
+
+p.forEach(pText => 
+    {
+        console.log(pText.innerText);
+        pText.innerText += 'New Text';
+    })
+
