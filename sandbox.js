@@ -195,17 +195,31 @@
 
 // console.log('area is: ', calcArea(5));
 
-const greet = () => 'hello world';
+// const greet = () => 'hello world';
 
-const bill = (production, tax) => 
+// const bill = (production, tax) => 
+// {
+//     let total = 0;
+//     for(let i =0; i < production.length; i++)
+//     {
+//         total += production[i] + production[i] * tax;
+//     }
+
+//     return total;
+// };
+
+// console.log(bill([10,15,30], 0.2));
 {
-    let total = 0;
-    for(let i =0; i < production.length; i++)
-    {
-        total += production[i] + production[i] * tax;
-    }
+const name = 'shaun';
 
-    return total;
-};
+//function
+    const greet = () => 'hello';
 
-console.log(bill([10,15,30], 0.2));
+    const resultOne = greet();
+    console.log(resultOne)
+
+//methods
+
+let resultTwo = name.toUpperCase();
+console.log(resultTwo);
+}
