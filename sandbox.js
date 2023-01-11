@@ -239,17 +239,52 @@
 //     console.log(value);
 // });
 
-let people = ['mario', 'luigi', 'rye', 'shaun', 'chin-li'];
+// let people = ['mario', 'luigi', 'rye', 'shaun', 'chin-li'];
 
-const logPerson = (person, index) =>
-{
-    console.log(`${index} - Hello ${person}`);
-};
-
-// people.forEach((index, person) => 
+// const logPerson = (person, index) =>
 // {
-//     console.log(index, person);
+//     console.log(`${index} - Hello ${person}`);
+// };
+
+// // people.forEach((index, person) => 
+// // {
+// //     console.log(index, person);
+// // });
+
+// console.log(people);
+// people.forEach(logPerson);
+
+//get reference to the 'ul'
+// let people = ['mario', 'luigi', 'rye', 'shaun', 'chin-li'];
+
+// const ul = document.querySelector('.people');
+
+// let html = ``;
+
+// people.forEach(person =>
+// {
+//     //create html template
+//     html += `<li style="color: purple">${person}</li>`;
 // });
 
-console.log(people);
-people.forEach(logPerson);
+// console.log(html);
+
+// ul.innerHTML = html;
+
+let user = 
+{
+    name: 'crystal',
+    age: 30,
+    email: 'crystal@thenetninja.co.uk',
+    location: 'berlin',
+    blogs: ['why mac and cheese rules', '10 things to make with marmite']
+};
+
+console.log(user);
+console.log(user.name);
+
+user.age = 35;
+
+console.log(user.age);
+
+console.log(typeof user);
