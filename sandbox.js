@@ -122,11 +122,36 @@
 // console.log(names < 'cystal');
 // console.log(names > 'Shaun');
 
-let age = 25;
+// let age = 25;
 
-console.log(age === 25);
-console.log(age === '25');
-console.log(age !== '25');
-console.log(age !== '25');
+// console.log(age === 25);
+// console.log(age === '25');
+// console.log(age !== '25');
+// console.log(age !== '25');
 
+// let score = '100';
 
+// console.log(Number(score) + 1)
+
+// let result = Number('hello');
+
+// console.log(result);
+
+//let result = String(50);
+
+//console.log(result, typeof result, '   something');
+
+// for loop
+// for(let i = 0; i < 5; i++)
+// {
+//     console.log('in loop: ', i);
+// }
+
+// console.log('loop finished');
+
+const names = ['shaun', 'mario', 'luigi'];
+
+for(let i = 0; i < names.length; i++)
+{
+    console.log(names[i]);
+}
