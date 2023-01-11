@@ -277,14 +277,25 @@ let user =
     age: 30,
     email: 'crystal@thenetninja.co.uk',
     location: 'berlin',
-    blogs: ['why mac and cheese rules', '10 things to make with marmite']
+    blogs: 
+    [
+        {
+        title: 'Why mac & cheese rules',
+        likes: 30
+        },
+        {
+            title: '10 things to make with marmite',
+            likes: 30
+        }
+    ],
+    login: () => console.log('the user logged in'),
+    logout: () => console.log('User has logged out'),
+    logBlogs: function()
+    {
+        this.blogs.forEach(element => {
+            console.log(element.title, element.likes);
+        });
+    }
 };
 
-console.log(user);
-console.log(user.name);
-
-user.age = 35;
-
-console.log(user.age);
-
-console.log(typeof user);
+user.logBlogs();
