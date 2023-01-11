@@ -47,40 +47,44 @@
 
 // console.log(result);
 
-let radius = 10;
-const PI = 3.14;
+// let radius = 10;
+// const PI = 3.14;
 
-console.log(radius,PI);
+// console.log(radius,PI);
 
-//math operators +, -, *, /, **( to the power of), %
+// //math operators +, -, *, /, **( to the power of), %
 
-console.log(10/2);
-console.log( radius % 3);
+// console.log(10/2);
+// console.log( radius % 3);
 
-console.log(PI * radius**2);
+// console.log(PI * radius**2);
 
-//order of operations: B(brackets) I(indicies) D(divison) M(multiplication) A S
+// //order of operations: B(brackets) I(indicies) D(divison) M(multiplication) A S
 
-let likes = 10;
-// likes = likes + 1;
-// likes += 1;
-// likes++
-// likes --
+// let likes = 10;
+// // likes = likes + 1;
+// // likes += 1;
+// // likes++
+// // likes --
 
-likes %= 3;
+// likes %= 3;
 
-const title = "Best reads of 2019";
-const author = "Mario";
+// const title = "Best reads of 2019";
+// const author = "Mario";
 
-let result =`The blog called ${title} by ${author} has ${likes} likes`
+// let result =`The blog called ${title} by ${author} has ${likes} likes`
 
-console.log(result);
+// console.log(result);
 
-//creating html template
-let html = `
-        <h2>${title}</h2>
-        <p>By ${author}</p>
-        <span>This blog has ${likes} likes</span>
-`;
+// //creating html template
+// let html = `
+//         <h2>${title}</h2>
+//         <p>By ${author}</p>
+//         <span>This blog has ${likes} likes</span>
+// `;
 
-console.log(html);
+// console.log(html);
+
+let ninjas = ['shaun', 'rye', 'chun-11'];
+
+console.log(ninjas);
